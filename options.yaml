@@ -1,0 +1,7 @@
+root: /media/seu/D270E3B670E39F89/wrf/front
+size:
+  - 350
+  - 525
+checkpoint: /media/seu/D270E3B670E39F89/wrf/checkpoint
+model: vae_0.0061214546.pth
+output: /media/seu/D270E3B670E39F89/wrf/test
