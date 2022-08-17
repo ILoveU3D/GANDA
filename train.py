@@ -10,8 +10,8 @@ from loss import KLDivLoss
 from options import checkpointPath
 
 trainSet = CrezhFront()
-trainLoader = DataLoader(trainSet, batch_size=1, shuffle=True)
-net = VAE().cuda()
+trainLoader = DataLoader(trainSet, batch_size=16, shuffle=True)
+net = VAE(128).cuda()
 net.initiate()
 optimizer = torch.optim.Adam(net.parameters(), lr=10e-3)
 scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=2, gamma=0.9)

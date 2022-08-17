@@ -3,5 +3,6 @@ size:
   - 350
   - 525
 checkpoint: /media/seu/D270E3B670E39F89/wrf/checkpoint
-model: vae_0.0061214546.pth
+model: vae_10917.1771653971.pth
 output: /media/seu/D270E3B670E39F89/wrf/test
+parseModelPath: /media/seu/D270E3B670E39F89/wrf/cloth_segm_u2net_latest.pth

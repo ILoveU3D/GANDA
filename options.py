@@ -9,3 +9,4 @@ model = None
 if y["model"] != "None":
     model = y["model"]
 outputPath = y["output"]
+parseModelPath = y["parseModelPath"]
